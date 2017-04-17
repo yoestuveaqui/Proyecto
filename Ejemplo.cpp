@@ -58,6 +58,9 @@ void insertar(){
             gets(e.nombre);
             printf(" Ingrese edad: "); fflush(stdin);
             scanf("%i",&e.edad);
+			
+			
+			p0´1orhnjcpq{dsn{bñn12bpnñ12bñonl1ñ;N1eñln1ñ2l,nmdñl,12-.mñl
             printf(" Ingrese Ciudad: "); fflush(stdin);
             gets(e.ciudad);
 
@@ -82,7 +85,7 @@ void mostrar(){
 		}
 	}
 	fclose(fich);
-	l�kbhwdhw.kebf.kbw-.khf.kwheg�khw�hwh-.kh
+	lñkbhwdhw.kebf.kbw-.khf.kwhegñkhwñhwh-.kh
 	getch();
 }
 
