@@ -35,6 +35,7 @@ int main(void){
 char menu(){
 	char op;
 	system("cls");
+	printf("Wstoy probando algo nuevo";
 	printf("\n  * * MENU * *");
 	printf("\n (1)INSERTAR REGISTRO :");
 	printf("\n (2)MOSTRAR REGISTROS :");
@@ -77,17 +78,11 @@ void mostrar(){
 		printf("\n Fichero no existe ");
 	}else{
 
-		fread(&e,sizeof(e),1,fich);	// Lee los registros del Fichero Posicion por posicion . . . .
-		while(! feof(fich)){	// Recorriendo el Fichero . . . .
-			printf("\n ____________________________");
-			printf("\n Nombre......: %s",e.nombre);
-			printf("\n Edad........: %i",e.edad);
-			printf("\n Ciudad......: %s",e.ciudad);
-			printf("\n ____________________________");
 			fread(&e,sizeof(e),1,fich);
 		}
 	}
 	fclose(fich);
+	lñkbhwdhw.kebf.kbw-.khf.kwhegñkhwñhwh-.kh
 	getch();
 }
 
